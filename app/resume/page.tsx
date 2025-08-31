@@ -1,15 +1,13 @@
 import Link from "next/link";
+
 export default function Resume() {
   return (
     <main className="min-h-screen px-6 py-16">
       <section className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold">Resume</h1>
 
-        <p className="mt-4 text-gray-600">
-          (Placeholder) Add your resume PDF here. You can upload a file and link to it below.
-        </p>
-
         <div className="mt-6">
+          {/* Direct link to your resume PDF */}
           <a
             className="inline-block rounded-xl border px-4 py-2"
             href="/Ryan-Feetham-Resume.pdf"
@@ -21,7 +19,9 @@ export default function Resume() {
         </div>
 
         <p className="mt-8">
-          <a className="underline" href="/">← Back to Home</Link>
+          <Link className="underline" href="/">
+            ← Back to Home
+          </Link>
         </p>
       </section>
     </main>
