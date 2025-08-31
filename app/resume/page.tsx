@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Resume() {
   return (
     <main className="min-h-screen px-6 py-16">
@@ -20,7 +21,7 @@ export default function Resume() {
         </div>
 
         <p className="mt-8">
-          <a className="underline" href="/">← Back to Home</a>
+          <a className="underline" href="/">← Back to Home</Link>
         </p>
       </section>
     </main>

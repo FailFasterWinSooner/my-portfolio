@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Projects() {
   return (
     <main className="min-h-screen px-6 py-16">
@@ -22,7 +23,7 @@ export default function Projects() {
         </div>
 
         <p className="mt-8">
-          <a className="underline" href="/">← Back to Home</a>
+          <a className="underline" href="/">← Back to Home</Link>
         </p>
       </section>
     </main>
